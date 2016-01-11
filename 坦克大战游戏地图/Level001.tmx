@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="48" height="27" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="MapRes" tilewidth="32" tileheight="32">
+  <image source="../../坦克大战游戏UI设计/游戏地图/MapRes.png" width="160" height="224"/>
+ </tileset>
+ <layer name="块层 1" width="48" height="27">
+  <data encoding="base64" compression="zlib">
+   eJzVVu1qBDEI9C0K3Q8Cff93vFtoYDqno0m2tCf4Z2edTDSaHGZ2PH17Q39X3V375Whf5GyMH+AKy/CV2Ko+xbP9U/1mP2vGeBVT+O5gO7nClX5cP+Nh7IM8io3ylunq8Xfk0MOq+r29d4u4ce4ongzPYrO9Z/otiN0hHm1G/2avdeTcZLNwpXcy/VbQv+ortTtpD9z7Ua9jblVMlQ/n4SFiFKbW4JmMfDP+GeiP+KP1uK/VveHV8Tfu3xEunHGcixHeUf09/975zrhQ82mvPcD78O5qtKjH1PsC9UfreWsyfpo/E6oW6eP5Gd0dStuo/tE5ZgKrnAl1v6J+hV/627fzf41c7W9U/yZ4M/1Yh37+737/8L08Epv1PsaunB9Vm36+I7x/V/ozXc10HZvNn5+Rt62HVfSj9kxfxKPyr7hX1sXYlXfUFT9juO/VvlvhmbVs3Wb12l39exT+8/C/0s/zB+eo8rsMZ8fs+3tUf+UNX7Vmfv+NeJ8PDyWJiH4=
+  </data>
+ </layer>
+ <objectgroup name="TargetLayer">
+  <object name="EnemyPoint" type="EnemyPoint" x="0" y="0" width="64" height="64"/>
+  <object name="EnemyPoint" type="EnemyPoint" x="480" y="0" width="64" height="64"/>
+  <object name="TankBorn" type="TankBorn" x="544" y="800" width="64" height="64"/>
+  <object name="Brick01" type="Brick_King" x="672" y="768" width="32" height="96"/>
+  <object name="Brick01" type="Brick_King" x="704" y="768" width="160" height="32"/>
+  <object name="Brick01" type="Brick_King" x="832" y="800" width="32" height="64"/>
+  <object name="King03" type="King" x="736" y="800" width="64" height="64"/>
+  <object name="EnemyPoint" type="EnemyPoint" x="960" y="0" width="64" height="64"/>
+  <object name="EnemyPoint" type="EnemyPoint" x="1472" y="0" width="64" height="64"/>
+  <object name="EnemyPoint" type="EnemyPoint" x="704" y="0" width="64" height="64"/>
+  <object name="Brick" type="Brick" x="352" y="512" width="128" height="288"/>
+  <object name="Brick" type="Brick" x="576" y="384" width="128" height="320"/>
+  <object name="Brick" type="Brick" x="832" y="384" width="128" height="320"/>
+  <object name="Brick" type="Brick" x="704" y="512" width="128" height="64"/>
+  <object name="Brick" type="Brick" x="1056" y="512" width="128" height="288"/>
+  <object name="Brick" type="Brick" x="1056" y="384" width="256" height="64"/>
+  <object name="Brick" type="Brick" x="1312" y="512" width="128" height="288"/>
+  <object name="Brick" type="Brick" x="224" y="384" width="256" height="64"/>
+  <object name="Brick" type="Brick" x="0" y="384" width="96" height="32"/>
+  <object name="Brick" type="Brick" x="1440" y="384" width="96" height="32"/>
+  <object name="Brick" type="Brick" x="96" y="64" width="128" height="256"/>
+  <object name="Brick" type="Brick" x="576" y="64" width="128" height="192"/>
+  <object name="Brick" type="Brick" x="1056" y="64" width="128" height="256"/>
+  <object name="Brick" type="Brick" x="1312" y="64" width="128" height="256"/>
+  <object name="Brick" type="Brick" x="832" y="64" width="128" height="192"/>
+  <object name="Brick" type="Brick" x="352" y="64" width="128" height="256"/>
+  <object name="Iron" type="Iron" x="704" y="160" width="128" height="64"/>
+  <object name="Iron" type="Iron" x="1440" y="416" width="96" height="32"/>
+  <object name="Iron" type="Iron" x="0" y="416" width="96" height="32"/>
+  <object name="EnemyPoint" type="EnemyPoint" x="1472" y="320" width="64" height="64"/>
+  <object name="EnemyPoint" type="EnemyPoint" x="0" y="320" width="64" height="64"/>
+ </objectgroup>
+</map>

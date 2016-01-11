@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="48" height="27" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="MapRes" tilewidth="32" tileheight="32">
+  <image source="E:/360Downloads/Apk/坦克大战 1.4/assets/ipad/TileMap/MapRes.png" width="160" height="224"/>
+ </tileset>
+ <layer name="块层 1" width="48" height="27">
+  <data encoding="base64" compression="zlib">
+   eJztls0KxCAMhO0pj9DDHvv+77gUFETGZLSRNUsHBvqjyaem1jOldAa3p1DMK7t3z8Rg2llxGVn8QuRZwV/aWrmt9ww/O4//xq+tm0dt3Rqpnwu4ZvTgZ2u19Beizyz/jFbwe+Vm8mi1gOZNsj30hJ/5nll+VBuMrP3HYz9qtQv/SJtaGv9ofI//7w78EdxjP7Kj6WgcTQz/ivO11zmk5Ues6Jl0bPUr8ubX9l6US5prNAYtlteaaueitk0txPxL/h3F1PKKb3NGn+xaI/xoHdCzVeNl67Z3tnn5n+nlj83/BQukKjA=
+  </data>
+ </layer>
+ <layer name="块层 2" width="48" height="27">
+  <data encoding="base64" compression="zlib">
+   eJzt0rENACEMBEE3QP/tkl8E1hkw2pFIPlhf8BH9DXnupn5z9Su62uy6f+Wuq8P+3F1Xp/v+k9jv7dy6+9P/z/7c3Rc6AAAAwI4JFu4CpQ==
+  </data>
+ </layer>
+ <objectgroup name="TargetLayer">
+  <object name="Brick01" type="Brick_King" x="672" y="768" width="32" height="96"/>
+  <object name="Brick01" type="Brick_King" x="704" y="768" width="160" height="32"/>
+  <object name="Brick01" type="Brick_King" x="832" y="800" width="32" height="64"/>
+  <object name="King03" type="King" x="736" y="800" width="64" height="64"/>
+  <object name="TankBorn" type="TankBorn" x="544" y="800" width="64" height="64"/>
+  <object name="Iron" type="Iron" x="672" y="544" width="64" height="96"/>
+  <object name="Brick" type="Brick" x="832" y="576" width="64" height="64"/>
+  <object name="Brick" type="Brick" x="896" y="512" width="64" height="64"/>
+  <object name="Iron" type="Iron" x="896" y="576" width="64" height="64"/>
+  <object name="Iron" type="Iron" x="224" y="512" width="64" height="64"/>
+  <object name="Brick" type="Brick" x="224" y="576" width="64" height="64"/>
+  <object name="Brick" type="Brick" x="0" y="576" width="64" height="64"/>
+  <object name="Iron" type="Iron" x="64" y="544" width="64" height="96"/>
+  <object name="Iron" type="Iron" x="0" y="416" width="832" height="32"/>
+  <object name="Iron" type="Iron" x="0" y="0" width="32" height="416"/>
+  <object name="Iron" type="Iron" x="32" y="0" width="896" height="32"/>
+  <object name="Iron" type="Iron" x="96" y="160" width="64" height="64"/>
+  <object name="Brick" type="Brick" x="96" y="64" width="64" height="96"/>
+  <object name="Brick" type="Brick" x="96" y="320" width="64" height="96"/>
+  <object name="Iron" type="Iron" x="224" y="256" width="64" height="64"/>
+  <object name="Brick" type="Brick" x="224" y="320" width="64" height="64"/>
+  <object name="Brick" type="Brick" x="320" y="160" width="64" height="64"/>
+  <object name="Iron" type="Iron" x="320" y="96" width="64" height="64"/>
+  <object name="Brick" type="Brick" x="384" y="96" width="64" height="64"/>
+  <object name="Iron" type="Iron" x="448" y="288" width="64" height="64"/>
+  <object name="Brick" type="Brick" x="512" y="256" width="64" height="160"/>
+  <object name="Iron" type="Iron" x="512" y="192" width="64" height="64"/>
+  <object name="Brick" type="Brick" x="640" y="96" width="64" height="64"/>
+  <object name="Iron" type="Iron" x="640" y="32" width="64" height="64"/>
+  <object name="Brick" type="Brick" x="800" y="32" width="64" height="64"/>
+  <object name="Brick" type="Brick" x="736" y="256" width="96" height="64"/>
+  <object name="Brick" type="Brick" x="832" y="192" width="64" height="64"/>
+  <object name="Iron" type="Iron" x="832" y="256" width="64" height="64"/>
+  <object name="EnemyPoint" type="EnemyPoint" x="160" y="128" width="64" height="64"/>
+  <object name="EnemyPoint" type="EnemyPoint" x="320" y="256" width="64" height="64"/>
+  <object name="EnemyPoint" type="EnemyPoint" x="256" y="128" width="64" height="64"/>
+  <object name="EnemyPoint" type="EnemyPoint" x="384" y="160" width="64" height="64"/>
+  <object name="EnemyPoint" type="EnemyPoint" x="448" y="96" width="64" height="64"/>
+  <object name="EnemyPoint" type="EnemyPoint" x="576" y="160" width="64" height="64"/>
+  <object name="EnemyPoint" type="EnemyPoint" x="640" y="224" width="64" height="64"/>
+  <object name="EnemyPoint" type="EnemyPoint" x="704" y="128" width="64" height="64"/>
+  <object name="EnemyPoint" type="EnemyPoint" x="832" y="320" width="64" height="64"/>
+  <object name="Road" type="Road" x="0" y="448" width="64" height="128"/>
+  <object name="EnemyPoint" type="EnemyPoint" x="1088" y="64" width="64" height="64"/>
+  <object name="EnemyPoint" type="EnemyPoint" x="160" y="576" width="64" height="64"/>
+  <object name="Brick" type="Brick" x="1184" y="704" width="64" height="160"/>
+  <object name="Brick" type="Brick" x="1472" y="704" width="64" height="160"/>
+  <object name="Brick" type="Brick" x="1344" y="704" width="64" height="160"/>
+  <object name="Brick" type="Brick" x="1472" y="576" width="64" height="64"/>
+  <object name="Brick" type="Brick" x="160" y="704" width="64" height="160"/>
+  <object name="Brick" type="Brick" x="0" y="704" width="64" height="160"/>
+  <object name="Brick" type="Brick" x="1280" y="352" width="64" height="64"/>
+  <object name="Brick" type="Brick" x="1056" y="288" width="64" height="128"/>
+  <object name="Brick" type="Brick" x="928" y="32" width="64" height="160"/>
+  <object name="Brick" type="Brick" x="1248" y="160" width="160" height="64"/>
+  <object name="Brick" type="Brick" x="1184" y="96" width="64" height="64"/>
+  <object name="Iron" type="Iron" x="832" y="416" width="512" height="32"/>
+  <object name="Iron" type="Iron" x="1472" y="640" width="64" height="64"/>
+  <object name="Iron" type="Iron" x="928" y="0" width="608" height="32"/>
+  <object name="Iron" type="Iron" x="1024" y="704" width="64" height="160"/>
+  <object name="Iron" type="Iron" x="1344" y="640" width="64" height="64"/>
+  <object name="Iron" type="Iron" x="1184" y="640" width="64" height="64"/>
+  <object name="Iron" type="Iron" x="1504" y="32" width="32" height="416"/>
+  <object name="Iron" type="Iron" x="1472" y="416" width="32" height="32"/>
+  <object name="Iron" type="Iron" x="320" y="704" width="64" height="160"/>
+  <object name="Iron" type="Iron" x="928" y="192" width="64" height="64"/>
+  <object name="Iron" type="Iron" x="1120" y="288" width="64" height="64"/>
+  <object name="Iron" type="Iron" x="1184" y="160" width="64" height="64"/>
+  <object name="Iron" type="Iron" x="1408" y="160" width="64" height="64"/>
+  <object name="Iron" type="Iron" x="1184" y="32" width="64" height="64"/>
+  <object name="Road" type="Road" x="1472" y="448" width="64" height="128"/>
+  <object name="EnemyPoint" type="EnemyPoint" x="1248" y="256" width="64" height="64"/>
+  <object name="EnemyPoint" type="EnemyPoint" x="320" y="512" width="64" height="64"/>
+  <object name="EnemyPoint" type="EnemyPoint" x="1248" y="800" width="64" height="64"/>
+ </objectgroup>
+</map>
